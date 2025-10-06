@@ -1,0 +1,73 @@
+{
+  "version": "2.0.0",
+  "generatedAt": "2025-10-06T19:48:00.710Z",
+  "source": {
+    "document": "MKM - Token",
+    "originalTokenCount": 98,
+    "originalVariableCount": 212
+  },
+  "collections": {
+    "Primitives": {
+      "tokens": {
+        "dimension": [
+          {
+            "name": "typography/font-weight/Regular",
+            "type": "dimension",
+            "value": {
+              "value": 400,
+              "unit": "px"
+            },
+            "mode": "Mode 1"
+          },
+          {
+            "name": "typography/font-weight/Medium",
+            "type": "dimension",
+            "value": {
+              "value": 500,
+              "unit": "px"
+            },
+            "mode": "Mode 1"
+          },
+          {
+            "name": "typography/font-weight/Semibold",
+            "type": "dimension",
+            "value": {
+              "value": 600,
+              "unit": "px"
+            },
+            "mode": "Mode 1"
+          },
+          {
+            "name": "typography/font-weight/Bold",
+            "type": "dimension",
+            "value": {
+              "value": 700,
+              "unit": "px"
+            },
+            "mode": "Mode 1"
+          },
+          {
+            "name": "typography/font-weight/Extrabold",
+            "type": "dimension",
+            "value": {
+              "value": 800,
+              "unit": "px"
+            },
+            "mode": "Mode 1"
+          }
+        ],
+        "string": [
+          {
+            "name": "typography/font-family",
+            "type": "string",
+            "value": {
+              "value": "Plus Jakarta Sans",
+              "type": "string"
+            },
+            "mode": "Mode 1"
+          }
+        ]
+      }
+    }
+  }
+}
