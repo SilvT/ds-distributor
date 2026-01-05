@@ -1,4 +1,4 @@
-# Design System Token Distributor
+# Design System Token Repository
 
 Automated design token distribution from Figma to development workflows.
 
