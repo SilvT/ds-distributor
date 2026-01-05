@@ -1,0 +1,112 @@
+name: Transform Figma Tokens
+
+on:
+  workflow_dispatch:
+
+jobs:
+  transform:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Transform figma-tokens.json
+        run: |
+          python3 << 'EOF'
+          import json
+          
+          print("📖 Reading figma-tokens.json...")
+          
+          # Read the original tokens file
+          with open('figma-tokens.json', 'r', encoding='utf-8', errors='ignore') as f:
+              data = json.load(f)
+          
+          # Create simplified structure
+          simplified = {
+              "version": data.get("version", "2.0.0"),
+              "generatedAt": data.get("generatedAt", ""),
+              "source": {
+                  "originalDocument": data.get("source", {}).get("document", ""),
+                  "totalTokens": 0
+              },
+              "tokens": []
+          }
+          
+          # Extract only type, name, value from each token
+          if 'collections' in data:
+              for collection_name, collection_data in data['collections'].items():
+                  if 'tokens' in collection_data:
+                      for token_type, tokens in collection_data['tokens'].items():
+                          for token in tokens:
+                              # Extract core fields
+                              clean_token = {
+                                  "type": token.get("type", token_type),
+                                  "name": token.get("name", ""),
+                                  "value": token.get("value", {})
+                              }
+                              
+                              # Simplify colour values to hex
+                              value = clean_token["value"]
+                              if isinstance(value, dict):
+                                  if "hex" in value:
+                                      # Keep alpha if present
+                                      if "alpha" in value and value["alpha"] < 1:
+                                          clean_token["value"] = {
+                                              "hex": value["hex"],
+                                              "alpha": value["alpha"]
+                                          }
+                                      else:
+                                          clean_token["value"] = value["hex"]
+                                  # Handle nested value structures
+                                  elif "value" in value and isinstance(value["value"], dict):
+                                      if "hex" in value["value"]:
+                                          if "alpha" in value["value"] and value["value"]["alpha"] < 1:
+                                              clean_token["value"] = {
+                                                  "hex": value["value"]["hex"],
+                                                  "alpha": value["value"]["alpha"]
+                                              }
+                                          else:
+                                              clean_token["value"] = value["value"]["hex"]
+                              
+                              simplified["tokens"].append(clean_token)
+          
+          simplified["source"]["totalTokens"] = len(simplified["tokens"])
+          
+          # Write simplified tokens
+          with open('figma-tokens-clean.json', 'w', encoding='utf-8') as f:
+              json.dump(simplified, f, indent=2, ensure_ascii=False)
+          
+          print(f"✅ Transformed {len(simplified['tokens'])} tokens")
+          print(f"💾 Output: figma-tokens-clean.json")
+          
+          # Show token breakdown
+          token_types = {}
+          for token in simplified["tokens"]:
+              token_type = token["type"]
+              token_types[token_type] = token_types.get(token_type, 0) + 1
+          
+          print("\n📊 Token breakdown:")
+          for token_type, count in sorted(token_types.items()):
+              print(f"   • {token_type}: {count}")
+          EOF
+      
+      - name: Commit transformed file
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add figma-tokens-clean.json
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: transform figma tokens to clean format"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
