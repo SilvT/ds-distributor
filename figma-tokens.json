@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-01-06T13:56:35.829Z",
+  "generatedAt": "2026-01-06T14:00:17.687Z",
   "source": {
     "document": "MKM_UI Library",
     "originalTokenCount": 2775,
@@ -25528,7 +25528,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "SemiBold",
               "fontSize": {
                 "$alias": "typography/font-size/9",
@@ -25556,7 +25559,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "SemiBold",
               "fontSize": {
                 "$alias": "typography/font-size/8",
@@ -25587,7 +25593,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "SemiBold",
               "fontSize": {
                 "$alias": "typography/font-size/6",
@@ -25618,7 +25627,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "Regular",
               "fontSize": {
                 "$alias": "typography/font-size/5",
@@ -25646,7 +25658,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "SemiBold",
               "fontSize": {
                 "$alias": "typography/font-size/3",
@@ -25674,7 +25689,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "SemiBold",
               "fontSize": {
                 "$alias": "typography/font-size/2",
@@ -25705,7 +25723,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "SemiBold",
               "fontSize": {
                 "$alias": "typography/font-size/1",
@@ -25736,7 +25757,10 @@
             "description": "Only to create hierarchy in title of app text display",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "ExtraBold",
               "fontSize": {
                 "$alias": "typography/font-size/6",
@@ -25767,7 +25791,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "Medium",
               "fontSize": {
                 "$alias": "typography/font-size/10",
@@ -25795,7 +25822,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "Bold",
               "fontSize": {
                 "$alias": "typography/font-size/7",
@@ -25823,7 +25853,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "Regular",
               "fontSize": {
                 "$alias": "typography/font-size/6",
@@ -25851,7 +25884,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "SemiBold",
               "fontSize": {
                 "$alias": "typography/font-size/2",
@@ -25882,7 +25918,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "Medium",
               "fontSize": {
                 "$alias": "typography/font-size/4",
@@ -25910,7 +25949,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "Regular",
               "fontSize": {
                 "$alias": "typography/font-size/3",
@@ -25941,7 +25983,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "Regular",
               "fontSize": {
                 "$alias": "typography/font-size/2",
@@ -25972,7 +26017,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "Regular",
               "fontSize": {
                 "$alias": "typography/font-size/1",
@@ -26000,7 +26048,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "Regular",
               "fontSize": {
                 "$alias": "typography/font-size/00",
@@ -26031,7 +26082,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "Regular",
               "fontSize": {
                 "$alias": "typography/font-size/00",
@@ -26056,7 +26110,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "Medium",
               "fontSize": {
                 "$alias": "typography/font-size/00",
@@ -26087,7 +26144,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "ExtraBold",
               "fontSize": {
                 "$alias": "typography/font-size/6",
@@ -26118,7 +26178,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "Regular",
               "fontSize": {
                 "$alias": "typography/font-size/1",
@@ -26146,7 +26209,10 @@
             "description": "",
             "type": "typography",
             "value": {
-              "fontFamily": "Plus Jakarta Sans",
+              "fontFamily": {
+                "$alias": "typography/font-family",
+                "$aliasId": "VariableID:2298:589"
+              },
               "fontWeight": "Regular",
               "fontSize": {
                 "$alias": "typography/font-size/2",
