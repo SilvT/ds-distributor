@@ -1,10 +1,715 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-01-06T19:06:59.731Z",
+  "generatedAt": "2026-01-06T19:24:57.183Z",
   "source": {
     "document": "Figma plugin",
-    "originalTokenCount": 0,
+    "originalTokenCount": 24,
     "originalVariableCount": 0
   },
-  "collections": {}
+  "collections": {
+    "uncategorized": {
+      "tokens": {
+        "gradient": [
+          {
+            "name": "gradient/lavender/strong",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0,
+                  "color": {
+                    "$alias": "{VariableID:19:292}",
+                    "$aliasId": "VariableID:19:292"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:289}",
+                    "$aliasId": "VariableID:19:289"
+                  }
+                }
+              ],
+              "angle": 270
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:bc1d02537c79e9ccd7bae932d3ccf34d5a842e79,"
+          },
+          {
+            "name": "gradient/lavender/medium",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0,
+                  "color": {
+                    "$alias": "{VariableID:19:291}",
+                    "$aliasId": "VariableID:19:291"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:289}",
+                    "$aliasId": "VariableID:19:289"
+                  }
+                }
+              ],
+              "angle": 270
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:231914c5ded7e7bbde7b52de3199a57e06f6a257,"
+          },
+          {
+            "name": "gradient/lavender/light",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0,
+                  "color": {
+                    "$alias": "{VariableID:19:290}",
+                    "$aliasId": "VariableID:19:290"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:289}",
+                    "$aliasId": "VariableID:19:289"
+                  }
+                }
+              ],
+              "angle": 270
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:db780a4463b13ef603659fc6ef304909929aa920,"
+          },
+          {
+            "name": "gradient/lavender/subtle",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0,
+                  "color": {
+                    "$alias": "{VariableID:19:289}",
+                    "$aliasId": "VariableID:19:289"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:274}",
+                    "$aliasId": "VariableID:19:274"
+                  }
+                }
+              ],
+              "angle": 270
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:ed5621bfdc7ce12370a8892366f03aa5fcd0b739,"
+          },
+          {
+            "name": "gradient/mint/strong",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0,
+                  "color": {
+                    "$alias": "{VariableID:19:303}",
+                    "$aliasId": "VariableID:19:303"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:300}",
+                    "$aliasId": "VariableID:19:300"
+                  }
+                }
+              ],
+              "angle": 270
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:0d0c94673962c45a2032a390a10d03d93211bf89,"
+          },
+          {
+            "name": "gradient/mint/medium",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0,
+                  "color": {
+                    "$alias": "{VariableID:19:302}",
+                    "$aliasId": "VariableID:19:302"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:300}",
+                    "$aliasId": "VariableID:19:300"
+                  }
+                }
+              ],
+              "angle": 270
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:fe7ffc223b258685c2e2285786b3091bc6de902f,"
+          },
+          {
+            "name": "gradient/mint/light",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0,
+                  "color": {
+                    "$alias": "{VariableID:19:301}",
+                    "$aliasId": "VariableID:19:301"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:274}",
+                    "$aliasId": "VariableID:19:274"
+                  }
+                }
+              ],
+              "angle": 270
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:26fcb0256689bb8135ea16a59130bafeb24cb4e1,"
+          },
+          {
+            "name": "gradient/mint/subtle",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0,
+                  "color": {
+                    "$alias": "{VariableID:19:300}",
+                    "$aliasId": "VariableID:19:300"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:274}",
+                    "$aliasId": "VariableID:19:274"
+                  }
+                }
+              ],
+              "angle": 270
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:4f4a3313f2ef774a2188c79e8979e457f5a105a7,"
+          },
+          {
+            "name": "gradient/blush/lavender-to-blush",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0,
+                  "color": {
+                    "$alias": "{VariableID:19:291}",
+                    "$aliasId": "VariableID:19:291"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:311}",
+                    "$aliasId": "VariableID:19:311"
+                  }
+                }
+              ],
+              "angle": 315
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:dfb0767392b53d6f3cd5ac8dfa5918856ae20488,"
+          },
+          {
+            "name": "gradient/blush/grad-dark bg",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0.29807692766189575,
+                  "color": {
+                    "$alias": "{VariableID:19:294}",
+                    "$aliasId": "VariableID:19:294"
+                  }
+                },
+                {
+                  "position": 0.5,
+                  "color": {
+                    "$alias": "{VariableID:19:771}",
+                    "$aliasId": "VariableID:19:771"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:326}",
+                    "$aliasId": "VariableID:19:326"
+                  }
+                }
+              ],
+              "angle": 0
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:8ffac52f2b3a3ec67b6cba1cb61201937c1be4d2,"
+          },
+          {
+            "name": "gradient/blush/grad-light bg",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0.29807692766189575,
+                  "color": {
+                    "$alias": "{VariableID:19:296}",
+                    "$aliasId": "VariableID:19:296"
+                  }
+                },
+                {
+                  "position": 0.5,
+                  "color": {
+                    "$alias": "{VariableID:19:772}",
+                    "$aliasId": "VariableID:19:772"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:298}",
+                    "$aliasId": "VariableID:19:298"
+                  }
+                }
+              ],
+              "angle": 0
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:40ed40aa515e5c216ac63c1282bcc2cc1252e411,"
+          },
+          {
+            "name": "gradient/blush/darksky",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0,
+                  "color": {
+                    "hex": "#1d2860"
+                  }
+                },
+                {
+                  "position": 0.5,
+                  "color": {
+                    "hex": "#484586"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "hex": "#975c9c"
+                  }
+                }
+              ],
+              "angle": 315
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:86438231303086bca07434a875d971975e660b54,"
+          },
+          {
+            "name": "gradient/blush/strong",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0,
+                  "color": {
+                    "$alias": "{VariableID:19:312}",
+                    "$aliasId": "VariableID:19:312"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:309}",
+                    "$aliasId": "VariableID:19:309"
+                  }
+                }
+              ],
+              "angle": 270
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:a1fa0996478139198d5937f46e42014c5f66302a,"
+          },
+          {
+            "name": "gradient/blush/medium",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0,
+                  "color": {
+                    "$alias": "{VariableID:19:312}",
+                    "$aliasId": "VariableID:19:312"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:310}",
+                    "$aliasId": "VariableID:19:310"
+                  }
+                }
+              ],
+              "angle": 227
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:306a6d007bdbbc1b0eee2d2a1cb2f30985d629b6,"
+          },
+          {
+            "name": "gradient/blush/light",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0,
+                  "color": {
+                    "$alias": "{VariableID:19:310}",
+                    "$aliasId": "VariableID:19:310"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:274}",
+                    "$aliasId": "VariableID:19:274"
+                  }
+                }
+              ],
+              "angle": 227
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:568ddf827018388835c40546ff84c30ead46bf60,"
+          },
+          {
+            "name": "gradient/blush/subtle",
+            "description": "",
+            "type": "gradient",
+            "value": {
+              "gradientType": "GRADIENT_LINEAR",
+              "stops": [
+                {
+                  "position": 0,
+                  "color": {
+                    "$alias": "{VariableID:19:309}",
+                    "$aliasId": "VariableID:19:309"
+                  }
+                },
+                {
+                  "position": 1,
+                  "color": {
+                    "$alias": "{VariableID:19:274}",
+                    "$aliasId": "VariableID:19:274"
+                  }
+                }
+              ],
+              "angle": 270
+            },
+            "collection": "gradient",
+            "reference": null,
+            "originalType": "gradient",
+            "source": "style",
+            "figmaNodeId": "S:ba69eb8af5fc58e06a8cead29400575f061485f5,"
+          }
+        ],
+        "typography": [
+          {
+            "name": "title/h0",
+            "description": "",
+            "type": "typography",
+            "value": {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontWeight": {
+                "$alias": "{VariableID:19:262}",
+                "$aliasId": "VariableID:19:262"
+              },
+              "fontSize": 40,
+              "lineHeight": 46,
+              "letterSpacing": 0,
+              "paragraphSpacing": 0,
+              "textCase": "original",
+              "textDecoration": "none",
+              "fontStyle": "normal",
+              "textAlign": "left"
+            },
+            "collection": "title",
+            "reference": null,
+            "originalType": "typography",
+            "source": "style",
+            "figmaNodeId": "S:3058782c0555c930f843e81103b6cb44a6d0b857,"
+          },
+          {
+            "name": "title/h1",
+            "description": "",
+            "type": "typography",
+            "value": {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontWeight": {
+                "$alias": "{VariableID:19:262}",
+                "$aliasId": "VariableID:19:262"
+              },
+              "fontSize": 30,
+              "lineHeight": 36,
+              "letterSpacing": 0.4000000059604645,
+              "paragraphSpacing": 0,
+              "textCase": "original",
+              "textDecoration": "none",
+              "fontStyle": "normal",
+              "textAlign": "left"
+            },
+            "collection": "title",
+            "reference": null,
+            "originalType": "typography",
+            "source": "style",
+            "figmaNodeId": "S:bb925e96cd5388842e367c16994d9725e89ab9b7,"
+          },
+          {
+            "name": "title/h2",
+            "description": "",
+            "type": "typography",
+            "value": {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontWeight": {
+                "$alias": "{VariableID:19:262}",
+                "$aliasId": "VariableID:19:262"
+              },
+              "fontSize": 20,
+              "lineHeight": 26,
+              "letterSpacing": 0.4000000059604645,
+              "paragraphSpacing": 0,
+              "textCase": "original",
+              "textDecoration": "none",
+              "fontStyle": "normal",
+              "textAlign": "left"
+            },
+            "collection": "title",
+            "reference": null,
+            "originalType": "typography",
+            "source": "style",
+            "figmaNodeId": "S:0e42bea177a7e7ee40b1bc15568956aeaa42a4c8,"
+          },
+          {
+            "name": "title/h3",
+            "description": "",
+            "type": "typography",
+            "value": {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontWeight": {
+                "$alias": "{VariableID:19:264}",
+                "$aliasId": "VariableID:19:264"
+              },
+              "fontSize": 18,
+              "lineHeight": 22,
+              "letterSpacing": 0,
+              "paragraphSpacing": 0,
+              "textCase": "original",
+              "textDecoration": "none",
+              "fontStyle": "normal",
+              "textAlign": "left"
+            },
+            "collection": "title",
+            "reference": null,
+            "originalType": "typography",
+            "source": "style",
+            "figmaNodeId": "S:7b13e9aa943d2cebf1a4a551b0b8bf505269d47b,"
+          }
+        ],
+        "shadow": [
+          {
+            "name": "sm",
+            "description": "",
+            "type": "shadow",
+            "value": {
+              "type": "drop-shadow",
+              "x": 0,
+              "y": 1,
+              "blur": 2,
+              "spread": 0,
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.06666667014360428,
+                "b": 0.07058823853731155,
+                "a": 0.05000000074505806
+              },
+              "visible": true
+            },
+            "collection": "Styles",
+            "reference": null,
+            "originalType": "shadow",
+            "source": "style",
+            "figmaNodeId": "S:e58be768fd585f86f21487f5f89da607571e1181,"
+          },
+          {
+            "name": "base",
+            "description": "",
+            "type": "shadow",
+            "value": {
+              "type": "drop-shadow",
+              "x": 0,
+              "y": 2,
+              "blur": 8,
+              "spread": 0,
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.06666667014360428,
+                "b": 0.07058823853731155,
+                "a": 0.03999999910593033
+              },
+              "visible": true
+            },
+            "collection": "Styles",
+            "reference": null,
+            "originalType": "shadow",
+            "source": "style",
+            "figmaNodeId": "S:a17f410e51bacf7d6389c99a5fe00b9c57bd3c97,"
+          },
+          {
+            "name": "md",
+            "description": "",
+            "type": "shadow",
+            "value": {
+              "type": "drop-shadow",
+              "x": 0,
+              "y": 4,
+              "blur": 12,
+              "spread": 0,
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.06666667014360428,
+                "b": 0.07058823853731155,
+                "a": 0.07999999821186066
+              },
+              "visible": true
+            },
+            "collection": "Styles",
+            "reference": null,
+            "originalType": "shadow",
+            "source": "style",
+            "figmaNodeId": "S:9abfa64bee67f3f2fa15ca3d8ba699882add5d81,"
+          },
+          {
+            "name": "lg",
+            "description": "",
+            "type": "shadow",
+            "value": {
+              "type": "drop-shadow",
+              "x": 0,
+              "y": 8,
+              "blur": 24,
+              "spread": 0,
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.06666667014360428,
+                "b": 0.07058823853731155,
+                "a": 0.11999999731779099
+              },
+              "visible": true
+            },
+            "collection": "Styles",
+            "reference": null,
+            "originalType": "shadow",
+            "source": "style",
+            "figmaNodeId": "S:28f9042548cb5b7bd862d3ab77c6fa73b3578a1e,"
+          }
+        ]
+      }
+    }
+  }
 }
